@@ -6,7 +6,7 @@ app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
   const data = {
-    title: "HEY",
+    title: "Hey",
     name: "John",
   };
   res.render("index", data);
